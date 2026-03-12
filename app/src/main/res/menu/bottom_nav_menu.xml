@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_view"/>
+
+    <item
+        android:id="@+id/nav_diet"
+        android:title="Diet"
+        android:icon="@android:drawable/ic_menu_manage"/>
+
+    <item
+        android:id="@+id/nav_knowledge"
+        android:title="Knowledge"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+
+    <item
+        android:id="@+id/nav_activity"
+        android:title="Activity"
+        android:icon="@android:drawable/ic_menu_compass"/>
+</menu>

@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Consult a Dietician!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <!-- Dietician Card -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#2E5A8A"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00C853"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Name: Dr. Riya Sharma"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Experience: 8 years"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Currently working at: Apollo Hospital"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:text="Schedule video Call"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="#6FA8DC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Second Dietician -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#2E5A8A"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00C853"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Name: Dr. Rahul Verma"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Experience: 10 years"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Currently working at: Fortis Healthcare"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:text="Schedule video Call"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="#6FA8DC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Third Dietician -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#2E5A8A"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#00C853"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Name: Dr. Ananya Mehta"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Experience: 6 years"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Currently working at: AIIMS Delhi"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:text="Schedule video Call"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="#6FA8DC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- MAIN APP THEME -->
+    <style name="Theme.FitFeast" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize if needed -->
+        <item name="android:statusBarColor">#0F3D2E</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+
+    <!-- SPLASH SCREEN THEME -->
+    <style name="Theme.FitFeast.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Background color -->
+        <item name="windowSplashScreenBackground">#0F3D2E</item>
+
+        <!-- App logo -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+
+        <!-- Icon background -->
+        <item name="windowSplashScreenIconBackgroundColor">#FFFFFF</item>
+
+        <!-- Switch to app theme after splash -->
+        <item name="postSplashScreenTheme">@style/Theme.FitFeast</item>
+    </style>
+
+</resources>

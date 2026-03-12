@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#355C8C"
+    android:padding="16dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/zumba"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Zumba"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Burns: ~400 kcal/hour"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Benefit: Cardio + fun fat burning workout"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

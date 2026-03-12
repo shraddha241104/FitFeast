@@ -1,0 +1,30 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_login_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Knowledge Wall"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Card -->
+        <include layout="@layout/knowledge_card_avocado"/>
+        <include layout="@layout/knowledge_card_broccoli"/>
+        <include layout="@layout/knowledge_card_warning"/>
+
+    </LinearLayout>
+
+</ScrollView>

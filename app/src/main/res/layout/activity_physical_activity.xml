@@ -1,0 +1,34 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Recommended Physical Activities"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:paddingTop="48dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Walking -->
+        <include layout="@layout/activity_card_walking"/>
+
+        <!-- Gym -->
+        <include layout="@layout/activity_card_gym"/>
+
+        <!-- Zumba -->
+        <include layout="@layout/activity_card_zumba"/>
+
+    </LinearLayout>
+
+</ScrollView>

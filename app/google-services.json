@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "814629978739",
+    "project_id": "fitfeast-727c0",
+    "storage_bucket": "fitfeast-727c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814629978739:android:e743c3ea89752aebc9a006",
+        "android_client_info": {
+          "package_name": "com.example.fitfeast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814629978739-vfqt2qd6orionuuquqa69d96a0aj71mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitfeast",
+            "certificate_hash": "96e02c73c70b2193b931b18bb1de9b4a91e4bf74"
+          }
+        },
+        {
+          "client_id": "814629978739-67bf0evnsgtcn0dd87n5dhhukoepvrdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV_voj2yAvv0pXNFO-50UnOm6psshkWqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814629978739-67bf0evnsgtcn0dd87n5dhhukoepvrdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FitFeast</string>
+    <string-array name="activity_levels">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+    </string-array>
+    <string name="default_web_client_id">
+814629978739-67bf0evnsgtcn0dd87n5dhhukoepvrdv.apps.googleusercontent.com
+</string>
+
+
+</resources>

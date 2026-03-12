@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_login_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Daily Health Progress"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:background="#355C8C"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Daily Calorie Target"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="1889 kcal"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:layout_marginTop="15dp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progress="60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
